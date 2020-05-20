@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+body{
+    margin: 0px;
+    padding: 10pxpx;
+    background-size: 100%;
+}
+
+.cajero{
+    margin: 30px auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 550px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+#izquierda{
+
+    cursor:pointer;
+    margin-left: 400px;
+    border: none;
+}
+.caja_arriba{
+    margin: auto;
+    width: 500px;
+    height: 280px;
+    background-color: rgb(228, 180, 61);
+    border: 7.5px solid rgb(49, 49, 46);
+    border-radius: 6px;
+}
+.caja_abajo{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.op div{
+    text-align: left;
+    border-radius: 8px;
+    padding: -0px 18px;
+    
+}
+#derecha{
+    float: right;
+    width: 150px;
+    background-color: black;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.botones{
+    width: 54px;
+    height: 54px;
+    padding: -0px 258px;
+    position: 100px;
+    text-align: center;
+     
+}
+#cancel{
+    padding: 11px 9px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    min-width: 7.5%;
+    color: rgb(255, 255, 255);
+    top: 379px;
+    position: absolute;
+
+}
+#clear{
+    padding: 11.2px 24.1px;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 11);
+    cursor: pointer;
+    color: white;
+    top: 438px;
+    position: absolute;
+
+}
+#ok{
+    padding: 9px 37px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 500px;
+
+}
+#none{
+    border: none;
+    padding: 10px 48px;
+    border-radius: 8%;
+    background-color: rgb(78, 78, 78);
+    position: absolute;
+    top: 550px;
+}
+
+button{
+    width: 70px;
+    height: 52px;
+    margin: 2px;
+    padding: 7px 20px;
+    margin-right: 2px;
+    font-size: 22px;
+}
+#tarjeta{
+    position: absolute;
+    top: 380px;
+    margin-left: 430px;
+    float: left;
+}
+#recibo{
+    position: absolute;
+    top: 380px;
+    margin-left: 580px;
+}
+#efectivo{
+    position: absolute;
+    top: 460px;
+    margin-left: 430px;
+}
+#depositar{
+    position: absolute;
+    top: 540px;
+    margin-left: 430px;
+}
+
